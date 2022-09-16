@@ -1,0 +1,317 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+
+    align-items: center;
+    background-color: rgb(95, 187, 126);
+    font-family: 'Staatliches', cursive;
+    letter-spacing: 1px;
+    
+}
+
+header{
+
+    background-color: #fefefe;
+    position: relative;
+    padding: 30px;
+    color: rgb(44,155,222);
+    height: 175px;
+    border-left: black solid;
+    border-right: black solid;
+
+}
+
+#yellow-submarine{
+
+    width: 300px;
+    position: relative;
+    left: 100px;
+
+}
+
+.abbeyroad{
+
+    width: 18%;
+    position: absolute;
+    left: 625px;
+
+}
+
+header h1{
+
+    position: relative;
+    left: 550px;
+    bottom: 40px;
+    font-family: 'Staatliches', cursive;
+    letter-spacing: 3px;
+    max-width: 50%;
+    
+}
+
+.division{
+
+    background-color:rgb(231, 159, 57);
+    height: 10px;
+    border: black solid;
+
+}
+
+nav{
+
+    position: absolute;
+    top: 35px;
+    right: 0px;
+
+}
+
+#nav-intro, #nav-disco, #nav-today{
+
+    display: inline-block;
+    padding: 10px 20px;
+    right: 100px;
+    border-radius: 10px;
+    transition: 0.3s;
+    
+}
+
+#nav-intro:hover{
+
+    color: #fefefe;
+    background-color: rgb(97,183,125);
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#nav-disco:hover{
+
+    color: #fefefe;
+    background-color: rgb(254,152,6);
+    border-radius: 10px;   
+    cursor: pointer;
+}
+
+#nav-today:hover{
+
+    color: #fefefe;    
+    background-color: rgb(239,46,94);
+    border-radius: 10px;    
+    cursor: pointer;
+
+}
+
+#nav-intro{
+    position: absolute;
+    right: 100px;
+    top: 0px;
+    color: rgb(97,183,125)
+}
+
+#nav-disco{
+    position: absolute;
+    right: 100px;
+    top: 75px;
+    color:  rgb(254,152,6);
+}
+
+#nav-today{
+
+    position: absolute;
+    right: 125px;
+    top: 150px;
+    color:  rgb(239,46,94);
+}
+
+.first-photo{
+    width: 15%;
+    position: absolute;
+    right: 100px;
+    top: 300px;
+    border: solid rgb(226, 97, 129);
+    border-width: 10px;
+    border-radius: 10px;
+    
+}
+.second-photo{
+    width: 15%;
+    position: absolute;
+    top: 1000px;
+    left: 100px;
+    border: solid rgb(228, 88, 123);
+    border-width: 10px;
+    border-radius: 10px;
+}
+
+.third-photo{
+    width: 15%;
+    position: absolute;
+    right: 100px;
+    top: 1700px;
+    border: solid rgb(228, 88, 123);
+    border-width: 10px;
+    border-radius: 10px;
+}
+
+.intro{
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+    padding: 20px;
+    line-height: 1.5em;
+    text-align: justify;
+        
+}
+
+.intro, .discography, .today{
+
+    background: #fefefe;
+    border-left: black solid;
+    border-right: black solid;
+    color: rgb(29, 139, 207);
+
+}
+
+.discography{
+
+    width: 600px;
+    padding: 20px ;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.discography li{
+
+    text-align: left;
+    justify-content: left;
+    line-height: 1.5em;
+
+}
+
+#disco-ul{
+    padding-left: 20px;
+}
+
+.today{
+    width: 600px;
+    padding: 20px;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+    line-height: 1.5em;
+    
+}
+
+.today h2{
+
+    margin-top: 50px;
+
+}
+
+footer{
+
+    border-left: solid black;
+    border-right: solid black;
+    background-color: #fefefe;
+    height: 100px;
+    position: relative
+    
+}
+
+
+footer li{
+
+    display: inline-block;
+    position: relative;
+    padding: 10px 20px;
+    border-radius: 10px;
+
+}
+
+#footer-top{
+
+    position: absolute;
+    top: 35px;
+    left: 350px;
+    color: rgb(29, 139, 207);
+    transition: 0.3s;
+
+}
+
+#footer-intro{
+
+    position: absolute;
+    top: 35px;
+    left: 550px;
+    color: rgb(97,183,125);
+    transition: 0.3s;
+
+}
+
+#footer-disco{
+
+    position: absolute;
+    top: 35px;
+    left: 800px;
+    color: rgb(254,152,6);
+    transition: 0.3s;
+
+
+}
+
+#footer-today{
+
+    top: 35px;
+    left: 1050px;
+    position: absolute;
+    color:  rgb(239,46,94);
+    transition: 0.3s;
+
+}
+
+#footer-top:hover{
+
+    color: #fefefe;
+    background-color: rgb(29, 139, 207);
+    border-radius: 10px ;
+    cursor: pointer;
+
+}
+
+
+#footer-intro:hover{
+
+    color: #fefefe;
+    background-color: rgb(97,183,125);    
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+
+#footer-disco:hover{
+
+    color: #fefefe;
+    background-color: rgb(254,152,6);
+    border-radius: 10px;    
+    cursor: pointer;
+
+}
+
+#footer-today:hover{
+
+    color: #fefefe;    
+    background-color: rgb(239,46,94);
+    border-radius: 10px;   
+    cursor: pointer;
+
+}
